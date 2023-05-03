@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  // wraps js in a function to run on page load
 
   $(".saveBtn").on("click", function () {
     var text = $(this).siblings(".description").val();
@@ -15,7 +16,7 @@ $(document).ready(function () {
   // get the current hour using moment.js
   var currentHour = moment().hours();
 
-
+// assingns id's to color code the blocks based on past present future
   for (let i = 9; i <= 17; i++) {
     const hour = document.getElementById("hour" + i);
     if (currentHour === i) {
@@ -30,7 +31,7 @@ $(document).ready(function () {
     }
   }
 
-
+// for loop to pull data from local storage into the text area's
   for (let i = 9; i <= 17; i++) {
     const hourStr = `hour-${i}`;
     $(`#${hourStr} .description`).val(localStorage.getItem(hourStr));

@@ -1,3 +1,8 @@
+header {
+  /* aligns text elements to cetner for title */
+  text-align: center; 
+} 
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
