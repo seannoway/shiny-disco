@@ -9,7 +9,7 @@ You can input your tasks in the text box provided and save them. The app stores 
 Thank you for using our simple calendar application. We hope it helps you stay organized and on top of your tasks throughout the day!
 
 ## Screenshot of Deployed Application
-![screenshot](assets/images/screenshot.png)
+![screenshot](./Assets/screenshot.png)
 
 ## Link to Deployed Application
-(https://seannoway.github.io/shiny-disco/)
+https://seannoway.github.io/shiny-disco/
