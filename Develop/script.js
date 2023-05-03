@@ -25,8 +25,11 @@ $(document).ready(function () {
       hour.classList.remove("past");
       hour.classList.add("future");
     }
+    else if (currentHour > i) {
+      hour.classList.add("past");
+    }
   }
- 
+
 
   for (let i = 9; i <= 17; i++) {
     const hourStr = `hour-${i}`;
